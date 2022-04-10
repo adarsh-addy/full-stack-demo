@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fullstack Webpage</title>
+  </head>
+  <body>
+    <header>
+      <center>
+        <div
+          style="
+            height: 40px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <h3>Welcome!! To My Fullstack Webpage</h3>
+        </div>
+      </center>
+    </header>
+    <center>
+      <h1 style="padding-top: 30px">User Saving Data Page</h1>
+    </center>
+    <form action="">
+      <div class="form-container">
+        <div class="row">
+          <div class="col">ID</div>
+          <div class="col">
+            <input type="text" name="id" placeholder="Enter the ID" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">NAME</div>
+          <div class="col">
+            <input type="text" name="name" placeholder="Enter the Name" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">AGE</div>
+          <div class="col">
+            <input type="text" name="age" placeholder="Enter the Age" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">EMAIL</div>
+          <div class="col">
+            <input type="email" name="email" placeholder="Enter the Email" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn-save btn1">Save</button></div>
+        </div>
+      </div>
+    </form>
+
+  <!-- previous code -->
+    <!-- <form>
+      <label>ID</label>
+      <input type="text" name="id" placeholder="Enter the ID" /><br /><br />
+      <label>NAME</label>
+      <input type="text" name="name" placeholder="Enter the Name" /><br /><br />
+      <label>AGE</label>
+      <input type="text" name="age" placeholder="Enter the Age" /><br /><br />
+      <label>EMAIL</label>
+      <input
+        type="email"
+        name="email"
+        placeholder="Enter the Email"
+      /><br /><br />
+      <button class="btn1">Save</button>
+    </form> -->
+
+
+    <br /><br />
+    <center>
+      <h1 style="padding-top: 10px">User Data Updating Section</h1>
+    </center>
+    <form action="">
+      <div class="form-container">
+        <div class="row">
+          <div class="col">ID</div>
+          <div class="col">
+            <input
+              type="text"
+              name="id_up"
+              placeholder="Enter the Required ID"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">NAME</div>
+          <div class="col">
+            <input type="text" name="name_up" placeholder="Enter the Name" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">AGE</div>
+          <div class="col">
+            <input type="text" name="age_up" placeholder="Enter the Age" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">EMAIL</div>
+          <div class="col">
+            <input type="email" name="email_up" placeholder="Enter the Email" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn-save btn6">Update</button></div>
+        </div>
+      </div>
+    </form>
+
+    <!-- previous code -->
+    <!-- <form>
+      <label>ID</label>
+      <input
+        type="text"
+        name="id_up"
+        placeholder="Enter the Required ID"
+      /><br /><br />
+      <label>NAME</label>
+      <input
+        type="text"
+        name="name_up"
+        placeholder="Enter the Name"
+      /><br /><br />
+      <label>AGE</label>
+      <input
+        type="text"
+        name="age_up"
+        placeholder="Enter the Age"
+      /><br /><br />
+      <label>EMAIL</label>
+      <input
+        type="text"
+        name="email_up"
+        placeholder="Enter the Email"
+      /><br /><br />
+      <button class="btn6">Update</button>
+    </form> -->
+    <br />
+    <center>
+      <h1 style="padding-top: 10px; margin-bottom: 20px">
+        Registered User Records
+      </h1>
+
+      <div class=""><button class="btn-save btn2" id="show">Shows</button></div>
+
+      <br />
+
+      <table>
+        <thead>
+          <th>ID</th>
+          <th>NAME</th>
+          <th>AGE</th>
+          <th>EMAIL</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <br />
+      <br />
+
+      <div class="">
+        <button class="btn-save btn3">Shows Ascending</button>
+        <button class="btn-save btn4">Shows Descending</button>
+      </div>
+      <br />
+    </center>
+    <center>
+      <h1 style="padding-top: 10px">User Data Delete Section</h1>
+    </center>
+
+    <form action="">
+      <div class="form-container">
+        <div class="row">
+          <div class="col">ID</div>
+          <div class="col">
+            <input
+              type="text"
+              name="id_del"
+              placeholder="Enter the Required ID"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col"><button class="btn-save btn5">Delete</button></div>
+        </div>
+      </div>
+    </form>
+
+    <footer>
+      <center>
+        <div
+          style="
+            height: 40px;
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          "
+        >
+          <h3>@All Data Reserved By Adarsh</h3>
+        </div>
+      </center>
+    </footer>
+  </body>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="./script.js"></script>
+</html>

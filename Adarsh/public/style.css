@@ -1,0 +1,107 @@
+@import url(//db.onlinewebfonts.com/c/6c40f158a670ee286eeb3e0859db3aec?family=Konexy+Personal+Use);
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "konexy personal use";
+  /* background-color: #43919B; */
+  /* color: #F7F5F2; */
+  letter-spacing: 2px;
+}
+
+form button {
+  font-size: 100%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+}
+form button:hover {
+  font-size: 80%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+  color: rgb(98, 245, 69);
+}
+form input {
+  width: 60%;
+  height: 40px;
+  background-color: beige;
+}
+.btn2 {
+  /* margin-left: 40%; */
+  font-size: 160%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+}
+.btn2:hover {
+  font-size: 120%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+  color: rgb(98, 245, 69);
+}
+table thead {
+  letter-spacing: 6px;
+}
+table {
+  /* margin-left: 30%; */
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+  padding: 3%;
+}
+table tbody td {
+  margin: 100%;
+}
+.btn3 {
+  /* margin-left: 30%; */
+  font-size: 100%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+}
+.btn3:hover {
+  font-size: 120%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+  color: rgb(98, 245, 69);
+}
+.btn4 {
+  margin-left: 2%;
+  font-size: 100%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+}
+.btn4:hover {
+  font-size: 120%;
+  box-shadow: 10px 10px 30px rgba(242, 193, 57, 0.5);
+  color: rgb(98, 245, 69);
+}
+button {
+  background-color: #30aadd;
+  color: rgb(21, 34, 119);
+  padding: 5px 10px;
+}
+
+.form-container {
+  margin: 3rem;
+  font-size: 1.5rem;
+  box-shadow: 8px 8px 15px rgba(242, 193, 57, 0.4);
+  padding: 3%;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 0.2fr 0.8fr;
+}
+
+.col {
+  margin-top: 1rem;
+}
+
+.col input {
+  width: 60%;
+  font-size: 1.3rem;
+  padding: 8px 16px;
+}
+
+.btn-save {
+  font-size: 1.5rem;
+  padding: 8px 16px;
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  outline: none;
+}
+.show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
