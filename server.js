@@ -28,7 +28,7 @@ app.use("/backend", mnRoute);
 const Port = process.env.PORT || 3000;
 
 app.get("/test", (req, res) => {
-  res.send("server is running on port 5000");
+  res.send("server is running on port 3000");
 });
 
 app.use("*", (req, res, next) => {
